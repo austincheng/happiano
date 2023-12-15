@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Austin Cheng" />
+
+		<title>Happiano</title>
+
+		<link rel="stylesheet" href="styles.css">
+
+		<script src="audiosynth.js"></script>
+		<script src="noteLookup.js"></script>
+		<script src="sheetMusic.js"></script>
+		<script src="main.js"></script>
+
+	</head>
+
+	<body>
+		<h1 onclick="HAPPY_BIRTHDAY.play(120)">Happy Birthday!</h1>
+		<div class="row">
+			<div class="column">
+				<img src="photos/test.jpeg" id="C" style="width:100%;display:none">
+			</div>
+			<div class="column">
+				<img src="photos/test.jpeg" id="D" style="width:100%;display:none">
+			</div>
+			<div class="column">
+				<img src="photos/test.jpeg" id="E" style="width:100%;display:none">
+			</div>
+			<div class="column">
+				<img src="photos/test.jpeg" id="F" style="width:100%;display:none">
+			</div>
+			<div class="column">
+				<img src="photos/test.jpeg" id="G" style="width:100%;display:none">
+			</div>
+			<div class="column">
+				<img src="photos/test.jpeg" id="A" style="width:100%;display:none">
+			</div>
+			<div class="column">
+				<img src="photos/test.jpeg" id="B" style="width:100%;display:none">
+			</div>
+		</div>
+		<div id="keyboard" class="keyboard-holder"></div>
+
+		<script type="text/javascript">
+			setupKeyboardHTML();
+			setupEventListeners();
+		</script>
+	</body>
+</html>
