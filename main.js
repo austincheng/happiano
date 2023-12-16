@@ -70,7 +70,7 @@ function setupEventListeners() {
 
 function playNote(noteText) {
 	var keyboard = document.getElementById('keyboard');
-	if (noteText in keysPressed) {
+	if (keysPressed.indexOf(noteText) != -1) {
 		return;
 	}
 	keysPressed.push(noteText);
@@ -85,6 +85,7 @@ function playNote(noteText) {
 	if (img) {
 		img.style.display = "inline";
 	}
+	document.getElementById("content").style.display = "none";
 }
 
 // Remove key bindings once note is done.
@@ -104,6 +105,10 @@ function unplayNote(noteText) {
 	keyboard[noteText].style.boxShadow = '';
 	// remove element
 	keysPressed.splice(index, 1);
+
+	if (keysPressed.length == 0 && !keyboard.classList.contains("playing")) {
+		document.getElementById("content").style.display = "inline";
+	}
 }
 
 // Generates audio for pressed note and returns that to be played

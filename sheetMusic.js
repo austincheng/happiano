@@ -4,22 +4,25 @@ class Chord {
 		this.noteLengthType = noteLengthType;
 	}
 
-	play(time, bpm, nextChordNoteTexts) {
+	play(time, bpm, nextChordNoteTexts, callback) {
 		var chordLength = this.getLength(bpm);
-		for (var noteText of this.noteTexts) {
+		for (var i in this.noteTexts) {
+			var noteText = this.noteTexts[i]
 			var length;
 			if (nextChordNoteTexts.indexOf(noteText) != -1) {
 				length = chordLength - 50;
 			} else {
 				length = chordLength;
 			}
-		    setTimeout(function() {
-		        playNote(noteText)
+		    setTimeout(() => {
+		        playNote(noteText);
 		    }, time);
-		    setTimeout(function() {
-		        unplayNote(noteText)
+		    setTimeout(() => {
+		        if (i == this.noteTexts.length - 1) {
+			        callback();
+			    }
+		        unplayNote(noteText);
 		    }, time + length);
-		    console.log(length)
 		}		
 	}
 
@@ -46,12 +49,17 @@ class Rest {
 }
 
 class Song {
-	constructor(name, chords) {
+	constructor(name, chords, bpm) {
 		this.name = name;
 		this.chords = chords;
+		this.bpm = bpm;
 	}
 
-	play(bpm) {
+	play() {
+		if (document.getElementById("keyboard").classList.contains("playing")) {
+			return;
+		}
+		document.getElementById("keyboard").classList.add("playing");
 		var time = 0;
 		for (var i = 0; i < this.chords.length; i++) {
 			var chord = this.chords[i]
@@ -60,8 +68,16 @@ class Song {
 				nextChordNoteTexts = this.chords[i + 1].noteTexts;
 			}
 
-			chord.play(time, bpm, nextChordNoteTexts);
-			time += chord.getLength(bpm);
+			var finalChordCallback;
+			if (i == this.chords.length - 1) {
+				finalChordCallback = function() {
+					document.getElementById("keyboard").classList.remove("playing");
+				}
+			} else {
+				finalChordCallback = function() {};
+			}
+			chord.play(time, this.bpm, nextChordNoteTexts, finalChordCallback);
+			time += chord.getLength(this.bpm);
 		}
 	}
 }
@@ -96,27 +112,52 @@ function happyBirthday() {
 	        new Chord(["C,1"], 1/4),
 	        new Chord(["D,1"], 1/4),
 	        new Chord(["C,1"], 1/2)
-		]
+		],
+		120
 	)
 }
 
 function eleven() {
 	return new Song(
 		"Eleven",
-		[]
+		[
+			new Chord(["C,0"], 1/8),
+			new Chord(["C,0"], 1/8),
+			new Chord(["C,0"], 1/8),
+			new Chord(["C,0"], 1/8),
+			new Chord(["C,0"], 1/8)
+		],
+		120
 	)
 }
 
 function turkishMarch() {
 	return new Song(
 		"Turkish March",
-		[]
+		[
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8)
+		],
+		120
 	)
 }
 
 function allAmericanHometownBand() {
 	return new Song(
 		"All American Hometown Band",
-		[]
+		[
+			new Chord(["A,0"], 1/8),
+			new Chord(["A,0"], 1/8),
+			new Chord(["A,0"], 1/8),
+			new Chord(["A,0"], 1/8),
+			new Chord(["A,0"], 1/8),
+			new Chord(["A,0"], 1/8)
+			
+		],
+		120
 	)	
 }
