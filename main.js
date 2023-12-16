@@ -81,9 +81,9 @@ function playNote(noteText) {
 
 	audio = playSound(noteText);
 
-	var img = document.getElementById(noteText.split(",")[0]);
+	var img = document.getElementById("pic_" + noteText);
 	if (img) {
-		img.style.display = "inline";
+		img.style.visibility = "visible";
 	}
 	document.getElementById("content").style.display = "none";
 }
@@ -96,9 +96,9 @@ function unplayNote(noteText) {
 		return;
 	}
 
-	var img = document.getElementById(noteText.split(",")[0])
+	var img = document.getElementById("pic_" + noteText)
 	if (img) {
-		img.style.display = "none";
+		img.style.visibility = "hidden";
 	}
 	keyboard[noteText].style.backgroundColor = '';
 	keyboard[noteText].style.marginTop = '';
