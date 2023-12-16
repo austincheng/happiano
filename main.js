@@ -107,7 +107,7 @@ function unplayNote(noteText) {
 	keysPressed.splice(index, 1);
 
 	if (keysPressed.length == 0 && !keyboard.classList.contains("playing")) {
-		document.getElementById("content").style.display = "inline";
+		document.getElementById("content").style.display = "flex";
 	}
 }
 
