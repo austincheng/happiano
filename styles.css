@@ -1,8 +1,29 @@
 body {
-	font-family: Georgia; 
-	text-align: center;
-	/*background-color: #ff66cc;*/
+	font-family: Georgia;
+	background-color: #f48db4;
 }
+
+#topRow {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#topRow span {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+	display: flex;
+}
+
+
 
 .key { 
 	position: absolute; 
@@ -72,4 +93,52 @@ body {
   flex: 33.33%;
   padding: 5px;
 }
+
+
+
+
+
+
+
+#sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c9356c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  color: #000000;
+}
+
+#sidenav a:hover {
+  color: #fafafa;
+}
+
+#closeSidenav {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
 

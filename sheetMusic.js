@@ -46,7 +46,8 @@ class Rest {
 }
 
 class Song {
-	constructor(chords) {
+	constructor(name, chords) {
+		this.name = name;
 		this.chords = chords;
 	}
 
@@ -65,37 +66,57 @@ class Song {
 	}
 }
 
-HAPPY_BIRTHDAY = new Song(
-	[
-		new Chord(["G,0"], 1/8),
-        new Chord(["G,0"], 1/8),
-        new Chord(["A,0"], 1/4),
-        new Chord(["G,0"], 1/4),
-        new Chord(["C,1"], 1/4),
-        new Chord(["B,0"], 1/2),
-        new Chord(["G,0"], 1/8),
-        new Chord(["G,0"], 1/8),
-        new Chord(["A,0"], 1/4),
-        new Chord(["G,0"], 1/4),
-        new Chord(["D,1"], 1/4),
-        new Chord(["C,1"], 1/2),
-        new Chord(["G,0"], 1/8),
-        new Chord(["G,0"], 1/8),
-        new Chord(["G,1"], 1/4),
-        new Chord(["E,1"], 1/4),
-        new Chord(["C,1"], 1/4),
-        new Chord(["B,0"], 1/4),
-        new Chord(["A,0"], 1/4),
-        new Rest(1/4),
-        new Chord(["F,1"], 1/8),
-        new Chord(["F,1"], 1/8),
-        new Chord(["E,1"], 1/4),
-        new Chord(["C,1"], 1/4),
-        new Chord(["D,1"], 1/4),
-        new Chord(["C,1"], 1/2)
-	]
-)
+function happyBirthday() {
+	return new Song(
+		"Happy Birthday!",
+		[
+			new Chord(["G,0"], 1/8),
+	        new Chord(["G,0"], 1/8),
+	        new Chord(["A,0"], 1/4),
+	        new Chord(["G,0"], 1/4),
+	        new Chord(["C,1"], 1/4),
+	        new Chord(["B,0"], 1/2),
+	        new Chord(["G,0"], 1/8),
+	        new Chord(["G,0"], 1/8),
+	        new Chord(["A,0"], 1/4),
+	        new Chord(["G,0"], 1/4),
+	        new Chord(["D,1"], 1/4),
+	        new Chord(["C,1"], 1/2),
+	        new Chord(["G,0"], 1/8),
+	        new Chord(["G,0"], 1/8),
+	        new Chord(["G,1"], 1/4),
+	        new Chord(["E,1"], 1/4),
+	        new Chord(["C,1"], 1/4),
+	        new Chord(["B,0"], 1/4),
+	        new Chord(["A,0"], 1/4),
+	        new Rest(1/4),
+	        new Chord(["F,1"], 1/8),
+	        new Chord(["F,1"], 1/8),
+	        new Chord(["E,1"], 1/4),
+	        new Chord(["C,1"], 1/4),
+	        new Chord(["D,1"], 1/4),
+	        new Chord(["C,1"], 1/2)
+		]
+	)
+}
 
+function eleven() {
+	return new Song(
+		"Eleven",
+		[]
+	)
+}
 
+function turkishMarch() {
+	return new Song(
+		"Turkish March",
+		[]
+	)
+}
 
-
+function allAmericanHometownBand() {
+	return new Song(
+		"All American Hometown Band",
+		[]
+	)	
+}
