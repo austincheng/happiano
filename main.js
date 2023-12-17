@@ -75,13 +75,19 @@ function playNote(noteText) {
 	}
 	keysPressed.push(noteText);
 
-	keyboard[noteText].style.backgroundColor = '#1BC0EA';
-	keyboard[noteText].style.marginTop = '5px';
-	keyboard[noteText].style.boxShadow = 'none';
+	if (keyboard[noteText]) {
+		keyboard[noteText].style.backgroundColor = '#1BC0EA';
+		keyboard[noteText].style.marginTop = '5px';
+		keyboard[noteText].style.boxShadow = 'none';
+	}
 
 	audio = playSound(noteText);
 
-	var img = document.getElementById("pic_" + noteText);
+	var note = noteText.split(",")[0];
+	var octave = noteText.split(",")[1];
+	var naturalNoteText = note[0] + "," + octave;
+
+	var img = document.getElementById("pic_" + naturalNoteText);
 	if (img) {
 		img.style.visibility = "visible";
 	}
@@ -96,13 +102,20 @@ function unplayNote(noteText) {
 		return;
 	}
 
-	var img = document.getElementById("pic_" + noteText)
+	var note = noteText.split(",")[0];
+	var octave = noteText.split(",")[1];
+	var naturalNoteText = note[0] + "," + octave;
+
+	var img = document.getElementById("pic_" + naturalNoteText);
 	if (img) {
 		img.style.visibility = "hidden";
 	}
-	keyboard[noteText].style.backgroundColor = '';
-	keyboard[noteText].style.marginTop = '';
-	keyboard[noteText].style.boxShadow = '';
+
+	if (keyboard[noteText]) {
+		keyboard[noteText].style.backgroundColor = '';
+		keyboard[noteText].style.marginTop = '';
+		keyboard[noteText].style.boxShadow = '';
+	}
 	// remove element
 	keysPressed.splice(index, 1);
 

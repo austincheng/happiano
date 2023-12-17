@@ -41,7 +41,7 @@ class Rest {
 		this.noteLengthType = noteLengthType;
 	}
 
-	play(time, bpm, nextChordNoteTexts) {
+	play(time, bpm, nextChordNoteTexts, callback) {
 		// NO-OP
 	}
 
@@ -63,7 +63,7 @@ class Song {
 			return;
 		}
 		document.getElementById("keyboard").classList.add("playing");
-		var time = 0;
+		var time = 1000;
 		for (var i = 0; i < this.chords.length; i++) {
 			var chord = this.chords[i]
 			var nextChordNoteTexts = []
@@ -318,7 +318,7 @@ function turkishMarch() {
 
 function allAmericanHometownBand() {
 	return new Song(
-		"All American Hometown Band",
+		"The All-American Hometown Band",
 		[
 			new Chord(["E,0"], 1/16),
 			new Chord(["D#,0"], 1/16),
@@ -367,3 +367,240 @@ function allAmericanHometownBand() {
 		126
 	)	
 }
+
+function elopingToTheMoon() {
+	return new Song(
+		"私奔到月球",
+		[
+			new Chord(["B,0"], 1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["D,1"], 1/4),
+			new Chord(["G,1"], 1/8),
+			new Chord(["F#,1"], 1/8),
+			new Chord(["D,1"], 1/4),	
+			new Chord(["B,0"], 1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["D,1"], 1/4),
+			new Chord(["A,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["G,0"], 1/4),
+			new Rest(1/8),	
+			new Chord(["B,0"], 1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["E,1"], 1/8),
+			new Chord(["D,1"], 1/4),
+			new Chord(["G,1"], 1/4),
+			new Chord(["C,1"], 1/4),
+			new Chord(["B,0"], 1/4),
+			new Chord(["A,0"], 1/4),
+			new Chord(["B,0"], 1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["D,1"], 1/4),
+			new Chord(["G,1"], 1/8),
+			new Chord(["F#,1"], 1/8),
+			new Chord(["D,1"], 1/4),	
+			new Chord(["B,0"], 1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["D,1"], 1/4),
+			new Chord(["G,1"], 1/8),
+			new Chord(["F#,1"], 1/8),
+			new Chord(["G,1"], 1/8),
+			new Rest(1/8),	
+			new Chord(["A,1"], 1/8),
+			new Chord(["B,1"], 1/8),
+			new Chord(["A,1"], 1/8),
+			new Chord(["G,1"], 1/8),
+			new Chord(["D,1"], 1/16),
+			new Chord(["G,1"], 5/16),
+			new Rest(1/8),
+			new Chord(["A,1"], 1/8),
+			new Chord(["B,1"], 1/8),
+			new Chord(["A,1"], 1/8),
+			new Chord(["G,1"], 1/8),
+			new Chord(["D,1"], 1/16),
+			new Chord(["G,1"], 5/16),
+			new Chord(["A,1"], 1/4),
+			new Chord(["G,1"], 1/2)
+		],
+		92
+	)
+}
+
+function niBeiXieZaiWoDeGeLi() {
+	return new Song(
+		"你被寫在我的歌裡",
+		[
+			new Chord(["F,0"], 1/8),
+			new Chord(["F,0"], 1/8),
+			new Chord(["F#,0"], 1/8),
+			new Chord(["G#,0"], 1/4),
+			new Chord(["C#,1"], 1/4),
+			new Chord(["C,1"], 1/8),	
+			new Chord(["C#,1"], 1/8),
+			new Chord(["D#,1"], 1/4),
+			new Chord(["C#,1"], 1/4),
+			new Chord(["C#,1"], 1/4),
+			new Chord(["C,1"], 1/8),
+			new Chord(["A#,0"], 1/8),
+			new Chord(["G#,0"], 1/8),
+			new Chord(["F,0"], 1/8),
+			new Chord(["G,0", "A#,0"], 1/4),
+			new Chord(["A#,0", "C#,0"], 1/4),
+			new Chord(["F,0", "G#,0"], 1/4),
+			new Chord(["G#,0", "C#,1"], 1/4),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G#,0"], 1/8),
+			new Chord(["A#,0"], 1/8),
+			new Chord(["A#,0", "D#,1"], 1/8),
+			new Chord(["G#,0", "A#,0", "D#,1"], 1/4),
+			new Chord(["C,1", "D#,1"], 1/4),
+			new Chord(["G#,0", "G#,1"], 1/4),
+			new Chord(["C#,1", "C#,2"], 1/4),
+			new Chord(["C,1", "C,2"], 1/8),
+			new Chord(["C#,1", "C#,2"], 1/8),
+			new Chord(["D#,1", "D#,2"], 1/4),
+			new Chord(["F,1", "C#,2", "F,2"], 1/2),
+			new Chord(["D#,1", "D#,2"], 1/8),
+			new Chord(["C#,1", "C#,2"], 1/8),
+			new Chord(["C,1", "C,2"], 1/4),
+			new Chord(["A#,0", "A#,1"], 1/4),
+			new Chord(["C#,1", "C#,2"], 1/4),
+			new Chord(["G#,0", "G#,1"], 1/4),
+			new Chord(["C#,1", "C#,2"], 1/4),
+			new Chord(["E,0", "E,1"], 1/8),
+			new Chord(["G#,0", "G#,1"], 1/8),
+			new Chord(["C#,1", "C#,2"], 1/8),
+			new Chord(["E,1", "E,2"], 1/8),
+			new Chord(["D#,1", "D#,2"], 1/2),
+			new Chord(["D#,1", "C,2", "D#,2"], 1/2),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64),
+			new Chord(["C,1"], 1/64),
+			new Chord(["C#,1"], 1/64)
+		],
+		92
+	)	
+}
+
+function dontYouKnowYet() {
+	return new Song(
+		"你還不知道？",
+		[
+			new Chord(["F,0"], 1/4),
+			new Chord(["G,0"], 1/4),
+			new Chord(["A,0"], 1/2),
+			new Chord(["C,1"], 1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["C,1"], 1/16),
+			new Chord(["D,1"], 1/4),
+			new Chord(["C,1"], 1/8),
+			new Chord(["A,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["F,0"], 1/4),
+			new Chord(["G,0"], 1/4),
+			new Chord(["A,0"], 1/4),
+			new Rest(1/4),
+			new Chord(["A,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["A,0"], 1/16),
+			new Chord(["A#,0"], 1/4),
+			new Chord(["A,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["F,0"], 1/8),
+			new Chord(["D,0"], 1/4),
+			new Chord(["E,0"], 1/4),
+			new Chord(["F,0"], 1/4),
+			new Rest(1/4),
+			new Chord(["C,1"], 1/8),
+			new Chord(["A,0"], 1/4),
+			new Rest(1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["F,0"], 1/4),
+			new Rest(1/8),
+			new Chord(["C,1"], 1/8),
+			new Chord(["A,0"], 1/4)
+		],
+		100
+	)	
+}
+
+function whyNotLove() {
+	return new Song(
+		"怎麼還不愛",
+		[
+			new Chord(["D,1"], 1/16),
+			new Chord(["D,1"], 1/16),
+			new Chord(["D,1"], 1/16),
+			new Chord(["B,0"], 1/16),
+			new Chord(["D,1"], 1/8),
+			new Chord(["G,0"], 1/16),
+			new Chord(["G,0"], 1/16),
+			new Chord(["G,0"], 1/16),
+			new Chord(["G,0"], 1/16),
+			new Chord(["G,0"], 1/16),
+			new Chord(["A,0"], 1/16),
+			new Chord(["G,0"], 1/16),
+			new Chord(["G,0"], 1/8),
+			new Chord(["F#,0"], 1/8),
+			new Chord(["E,0"], 1/16),
+			new Chord(["F#,0"], 1/8),
+			new Chord(["E,0"], 1/16),
+			new Chord(["F#,0"], 1/8),
+			new Chord(["E,0"], 1/16),
+			new Chord(["F#,0"], 3/16),
+			new Chord(["B,0"], 3/16),
+			new Chord(["G,0"], 1/8),
+			new Chord(["E,0"], 1/4),
+			new Chord(["B,0"], 3/8),
+			new Rest(1/16),
+			new Chord(["D,1"], 1/16),
+			new Chord(["D,1"], 1/16),
+			new Chord(["D,1"], 1/16),
+			new Chord(["D,1"], 1/16),
+			new Chord(["G,0"], 1/8),
+			new Chord(["D,1"], 1/16),
+			new Chord(["D,1"], 1/8),
+			new Chord(["G,0"], 1/16),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 3/16),
+			new Chord(["C,1"], 1/8),
+			new Chord(["C,1"], 1/16),
+			new Chord(["B,0"], 1/8)	
+		],
+		80
+	)
+}
+
+
+
+

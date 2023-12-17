@@ -97,12 +97,19 @@ h1 {
 	text-shadow: 0px 1px 1px #08E8F5; 
 }
 
+#keyboardHolder {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+	bottom: 0;
+}
+
 #keyboard { 
 	margin: 30px auto; 
 	height: 200px; 
 	position:absolute; 
 	bottom: 0;
-	left: 25%;
 	user-select:none; 
 	-webkit-user-select:none;
 	-moz-user-select:none;

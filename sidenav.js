@@ -61,6 +61,40 @@ var xis = [
         Sunday as our official date day. On our first Sunday together, we finally had our first formal date night, and we ended the night with \
         our first piano session together, and we started learning a piano duet together, "The All-American Hometown Band".`,
         "photos/collage_photos/12.jpeg"
+    ),
+    new Xi(
+        "30",
+        elopingToTheMoon(),
+        `Everyday I become more and more excited at the thought of experiencing life together with you, finding activities to do together, \
+        spending romantic time together, and writing more and more into our life story. I become increasingly convinced that we are the perfect \
+        couple, realizing more and more how compatible we are and how we are the only fit for each other. One of our most beloved activities that \
+        I enjoy doing with you so much is our singing duets together, which is not only enjoyable, but I think we are also able to learn from these \
+        experiences together. The first song we learned together was "私奔到月球", which perfectly describes our compatability and constant bond to be \
+        together, hoping one day we can "私奔到月球" and be worry-free and spend the rest of our lives together in eternal bliss.`,
+        "photos/collage_photos/30.jpeg"
+    ),
+    new Xi(
+        "31",
+        niBeiXieZaiWoDeGeLi(),
+        `Driving to work chore`,
+        "photos/collage_photos/31.jpg"
+    ),
+    new Xi(
+        "33",
+        dontYouKnowYet(),
+        `As we learn more and more songs, we find more and more songs that describe our love story, as if the world is pulling us together \
+        and describing our story. I love reminiscing about our "小時候", and why it took so long for the world to bring us together, the whole time \
+        thinking to tell you "不要告訴我的你還不知道 I love you baby."`,
+        "photos/collage_photos/33.jpeg"
+    ),
+    new Xi(
+        "34",
+        whyNotLove(),
+        `The more I spend time with you, the more fun we have together and the more I love you, as we have more and more shared experiences. \
+        The first time I learned a Chinese rap verse with you was from "你怎麼還不愛", and it always makes me so happy when I see the joy on your \
+        face when I learn a new song, especially the tougher Chinese raps. I like this song especially because it reminds me of our love story, where \
+        when you said you needed two weeks before we got together, I kept thinking to myself "你怎麼還不愛？"`,
+        "photos/collage_photos/34.jpeg"
     )
 ]
 
