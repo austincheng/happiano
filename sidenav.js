@@ -123,7 +123,7 @@ var xis = [
     new Xi(
         "50",
         zhiShanShanLaiChiDeNi(),
-        `This is one of the first songs I remember hearing you sing. Playing your music and hearing you rap I thought it was cool.`,
+        `This is one of the first songs I remember hearing you sing. Playing your music and hearing you rap I thought it was cool. So talented`,
         "collage_photos/50.jpeg"
     ),
     new Xi(
@@ -172,7 +172,11 @@ var xis = [
     new Xi(
         "126",
         happyBirthday(),
-        "Happy Birthday!",
+        `My dearest and most precious baby,
+        Happy 26th birthday! I know you don't like talking about our age gap and getting old, but I like to think about it as us growing older and \
+        learning together, our love getting stronger, and experiencing life together, forming fond memories, and writing the most beautiful and precious \
+        life story there ever was. Ever since the very first moment I met you, you've brought an immense amount of joy into my life and truly changed my \
+        life for the better, being my sturdy support in every situation, guiding me through struggles and life, and shaping my personality and behavior`,
         undefined
     )
 
