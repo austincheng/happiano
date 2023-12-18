@@ -97,6 +97,7 @@ function playNote(noteText) {
 	audio = playSound(noteText);
 
 	document.getElementById("content").style.display = "none";
+	document.getElementById("notePhotos").style.display = "inline";
 }
 
 // Remove key bindings once note is done.
@@ -126,6 +127,7 @@ function unplayNote(noteText) {
 
 	if (keysPressed.length == 0 && !keyboard.classList.contains("playing")) {
 		document.getElementById("content").style.display = "flex";
+		document.getElementById("notePhotos").style.display = "none";
 	}
 }
 
