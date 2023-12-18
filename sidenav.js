@@ -70,7 +70,18 @@ var xis = [
     new Xi(
         "31",
         niBeiXieZaiWoDeGeLi(),
-        `Driving to work chore`,
+        `There's so much to enjoy in life when I'm around you, even the simple things. As long as you're around me, I feel like I can do anything and \
+        it makes everday life a pleasure to enjoy. I used to not enjoy driving very much, especially my hour-long commute to and from work, which used \
+        to be a tedious and tiring chore for me, especially in the early morning and after a long day of work. I was so excited to hear that your home \
+        and work was on the way for my commute to work, and after eventually mustering up the courage to ask if you want to carpool, I was beyond elated \
+        when you agreed. The previous night I was so happy that I couldn't fall asleep and in the morning, for the first time I was looking forward to going \
+        to work. These days, I still feel so lucky that when I wake up, the first thing I get to see is the face of my beautiful girlfriend, and I feel so \
+        lucky that you still accompany me on my way to and from work. Even before we got together, there was even a period of time where we would call \
+        each other on our way to and from work, and even when you're not physically by my side, I still feel your presence and it makes everything better. \
+        We are able to find ways to make our lives more fun, like I remember that time when we were just calling on our commutes and I was able to find you \
+        through the traffic. Even after all this time, we still happily sing duets in the car, holding hands and enjoying the loving ride, and I will never get \
+        tired of your presence around me. Like the title of the song "你被寫在我的歌裡" says, you are written into the song of my life and love story, so no matter \
+        where we are, I can always feel and hear your loving presence, making everything in life infinitely times better.`,
         "collage_photos/31.jpg"
     ),
     new Xi(
@@ -93,80 +104,155 @@ var xis = [
     new Xi(
         "37",
         dimples(),
-        `I will never get tired of your beauty`,
+        `I feel so lucky I get to live in a world with you in it, and I am able to see your face everyday, whether it be face-to-face, through video call, or \
+        just through pictures. Everytime I look at you, I fall more and more in love and wonder how life treated me with the most beautiful girl in the world \
+        to be my girlfriend. I remember very early on, when I saw you walk into the badminton courts, my heart would flutter and I couldn't stop staring, losing \
+        focus of my badminton game. I remember seeing your eyes sparkle and thinking about how cute you are with your fair and round cheeks and large, circular glasses. \ \
+        I love the way your gorgeous hair flows, and you always pull them back with a hair band and tie them when you play badminton, and no matter how you style \
+        your hair, I'm always mesmerized by the attractiveness. When you look back at me and acknowledge me with a smile, it feels like the world completely stops and \
+        is lit up by the radiance of your beaming happiness. Then, your one-sided "小酒窩" appears and I remember thinking how unique it is, and I felt like it was the \
+        cutest thing I ever seen. Then your smile exposes your teeth, and the cuteness just multiplies, and I see your "tiger tooth" and you somehow just keep getting \
+        cuter and cuter. The first time I noticed your "tiger tooth", I really was in awe and I couldn't stop looking at how cute you are, and in that moment, I remember \
+        feeling like I was no longer shy and I just couldn't resist continuously complimenting you. Whenever I see you, you really do get prettier and prettier everytime, \
+        and it always makes me want to stop and take a photo, making my phone storage full of your stunning face, and allowing myself to enjoy your beauty at any time. \
+        You also are so good at posing for photos, and making so many different kinds of faces and smiles, and somehow every expression you make is the most wonderful \
+        thing I've ever seen. Even after all this time and seeing your face millions of times, I still wonder how such a heavenly and dreamy goddess can walk this earth, \
+        and no matter how many times I look at you, I will never get tired of your beauty.`,
         "collage_photos/37.jpeg"
     ),
     new Xi(
         "38",
         lianXiAiQing(),
-        `I really am excited to grow and learn with you.`,
+        `It always feels like our relationship is a dream, as I feel like you are the perfect girlfriend anyone can ask for, and so much in our relationship \
+        goes smoothly and exactly how I want it. Of course as with anything in life, there will be setbacks and things that are out of our control, but our \
+        love is so powerful that it can endure anything and we are able to get through anything together. We are able to learn and grow together from these \
+        experiences, and it only makes our love get stronger and stronger. It's definitely a shame that I am not able to spend your birthday this year physically \
+        with you, and I'm so sorry it turned out this way, but I'm hoping I will be able to make it up with you. I am excited to always learn to love with you, \
+        grow together in experiences, and continue to "練習愛情".`,
         "collage_photos/38.jpeg"
     ),
     new Xi(
         "39",
         youDianTian(),
-        `I love our sweetness. We are not "有點甜", we are "非常甜".`,
+        `I really love how our relationship became so sweet and open with each other, constantly embracing, saying loving words, and sticking to each other like \
+        sweet honey. I keep wanting to tell you how much I love you and how much I appreciate you, and I think we can never say it enough. Even in front of other \
+        people, I'm usually very shy and don't like to show too much about myself, but when I'm with you, the love is so overwhelming that it's hard to resist \
+        our sweetness, and I just feel like I always want to show my sweet love in front of you. Hopefully our friends don't find it too annoying when we "閃瞎", \
+        but it's just so hard to resist getting close to you and becoming sweet with you. We are not just "有點甜", we are definitely "非常甜".`,
         "collage_photos/39.jpeg"
     ),
     new Xi(
         "41",
         iWillBeByYourSide(),
-        `I never want to leave your side, and always want to hug `,
+        `My happiness is really immeasurable when I'm with you, that I never want to leave your side, and even when we're apart for a little bit, I always feel like \
+        a part of me is missing. Whenever you had to go on a business trip, or when we have to be apart now for vacations and trips, my life becomes so much more empty. \
+        I always want to be by your side and even when I'm with you, I always want to be as physically close to you as possible, always wanting to sit next to you, \
+        holding hands, and hugging, even when I'm driving. Although a month isn't too long in the grand scheme of things, this month of time while we're apart feels \
+        like an eternity and I miss everything about you and lack the loving sweetness that makes life so much better. I also keep feeling helpless when you \
+        have struggles and I can't be there to protect you or help you. In the future, I promise "我會在你身邊" so that we can walk together in loving embrace until eternity.`,
         "collage_photos/41.jpeg"
     ),
     new Xi(
         "49",
         messedUp(),
-        `I remember only wanting to sing love songs.`,
+        `When we first started learning duets, I remember only wanting to sing love songs or songs that actually described our story and how much we love each other. \
+        However, at some point I realized that no matter what gets in the way, no matter what other people say, no matter what the world around us does, our love will \
+        continuously get stronger. Although I still feel like singing love songs while looking into your eyes is romantic and makes my mood very good, we definitely \
+        don't need songs to prove our love as our love stands strong no matter what. The first non-love song we learned was "Messed Up", and I still think it's so fun \
+        to sing at karaoke or performing in front of other people.`,
         "collage_photos/49.jpeg"
     ),
     new Xi(
         "50",
         zhiShanShanLaiChiDeNi(),
-        `This is one of the first songs I remember hearing you sing. Playing your music and hearing you rap I thought it was cool. So talented`,
+        `I remember the first time hearing you sing casually was on the car ride from the day we watched Mission Impossible, where you just casually sang along with some \
+        K-pop songs. Even though you weren't very familiar with the lyrics, I still remember how fun you make everything and you just radiate the vibe of a joyful flow of \
+        sunshine, even when just singing casually. When I finally got to carpool and hear you sing more songs, I absolutely fell in love with your voice and your singing voice \
+        is warm yet heavenly. Not only are you an extremely talented singer, you also memorized the lyrics to basically every song, and it's so cool hearing you sing song after \
+        song without messing up tune or lyrics. Even rap songs with rap verses that are a few minutes long, you manage to keep up and continuously put on a show of fantasic music. \
+        I'm so fortunate to have such a beautiful voice be my duet partner, and it's a pleasure hearing you sing every day in the car. I remember one of the first times we carpooled, \
+        we switched over to listening to your music for the first time, and it made my day hearing you sing properly for the first time. I'm so glad we decided to switch from my music \
+        to your music, as we now have so many songs we can sing together as duets. One of the first songs I remember hearing you sing was "致姗姗来迟的你", and I loved the way you \
+        seamlessly transitioned from singing to rapping, and your rapping of this song I think is espcially cool. I love seeing you perform more and more talents, from \
+        playing piano, singing, and rapping to playing ping-pong and badminton, and I can't wait to discover every part of my amazing girlfriend.`,
         "collage_photos/50.jpeg"
     ),
     new Xi(
         "51",
         loveDoesntNeedToPretend(),
-        `Learning rap is fun. Learning Chinese too`,
+        `I'm so glad we started to explore more and more kinds of songs, and taking on more and more challenges in songs. "愛不需要裝乖" was the first time \
+        I learned an extensive rap with you, and I found it so fun to learn with you. Hearing you do the rap is so cool, and I'm so happy you are there to \
+        guide and teach me the more difficult songs and raps. As an added bonus, you teach me so much Chinese when learning these songs, especially the more \
+        complex raps, and it's so fun having an activity to do together that is both fun and educational. I'm looking forward to learning more and more with you \
+        and taking on more and more challenges while discovering new activities with you!`,
         "collage_photos/51.jpeg"
     ),
     new Xi(
         "59",
         aiDeZhuXuanLu(),
-        `This song was fun because I was hoping to learn new songs after you came back from business trip, but I procrastinated \
-        and tried to cram learning this song the day you came back. Travel stuff`,
+        `The first time you went on a business trip was pretty tough for me, since I had gotten so accustomed to you being around, and I felt like I forgot \
+        how to live without you. I lost motivation to do many things, like going to work became a chore again and I didn't really have much motivation to \
+        learn songs anymore. You really make my life so much better by being my encouragement and support, and I felt lost again with you. The day you were coming \
+        back from the business trip, I remember thinking I was supposed to learn many songs and surprise you with my progress when you got back. However, I ended \
+        up procrastinating and I tried cramming learning the song "愛的主旋律" the day you were getting back. I found that after much practice in learning songs \
+        and having a wonderful singing teacher helped me a lot, as I was not only able to finish learning the song, I was also able to learn another song.`,
         "collage_photos/59_1.jpeg"
     ),
     new Xi(
         "59",
         liangShanBoYuZhuLiYe(),
-        `I feel like I became faster at learning songs. I tried learning these two songs on the same day"`,
+        `Whenever you go on a trip, I always hope to learn some songs and I always hope to surprise and impress you with my progress. You are such an amazing \
+        girlfriend that I always try to find ways to keep up with your awesomeness, so I keep trying to find ways to show off in front of you. I tried learning \
+        "梁山伯與茱麗葉" before you got back from your trip, and I was surprised by how fast I started learning songs now, as I was able to learn two songs in one day. \
+        I also remember everytime you come back from your trip, I get so nervous to perform in front of you, wanting to show you my best and show you how fast \
+        I learn songs. Fortunately for that day, even though I tried cramming two songs in one day, I think I still did relatively well hehe."`,
         "collage_photos/59_2.jpeg"
     ),
     new Xi(
         "62",
         nianNian(),
-        `One of my favorite songs`,
+        `One of my favorite songs now is "黏黏", as I think it encapsulates our love pretty well. Even though the lyrics are fairly typical, as they just \
+        describe wanting to spend every minute and every second with you, I think the part that I love about this song is that it's not an exaggeration and \
+        the words used in the song are exactly how I'd describe it. I think "黏" is a very fitting description for our relationship, and I always feel like \
+        I'm overly clingy to you, but you always assure me that you like me being this way and that I have to be this way towards you forever. It honestly \
+        makes me so happy when you say that, since I can just continue being myself and continue having the very best sweet and loving relationship with you. \
+        People say we may start to get tired of each other and the honeymoon period will eventually end, but even after spending every second with you, not only \
+        am I not tired at all, I always want more no matter how much time we've already spent together. I will never get tired of you by my side and I wish I can \
+        be stuck to you forever.`,
         "collage_photos/62.jpeg"
     ),
     new Xi(
         "63",
         shaXiao(),
-        `Hehe`,
+        `Even though we've only been together for four months, I think it's amazing that we were lucky enough to go on trips together already, such as our \
+        trip to Hawaii and the fun we were able to have in Taiwan. I love exploring new places with you, seeing beautiful landmarks, and enjoying amazing views, \
+        all while by your side, holding your hand, as if I get to walk the world around us while holding my world in front of me. I love taking pictures everywhere \
+        with you, since we get to capture our loving relationship in so many cool places. I also think it's so cool how great of a photographer you are, and you are \
+        always teaching me new things on better ways to capture the moments. I'm so appreciative that you are patient with me and are willing to teach me so much, so \
+        that I don't just make the same "傻笑" for every photo.`,
         "collage_photos/63.jpeg"
     ),
     new Xi(
         "81",
         rewriteTheStars(),
-        `Finally an English song`,
+        `There are so many places we get inspiration for new duets to learn, and I was glad when we finally learned a song that I already knew and that it was \
+        an English song, "Rewrite the Stars". I love musicals and I'm happy we finally found a song that we both knew, and I think we can probably take more \
+        inspiration from musicals, since you already know how much I love "Hamilton". The day we got to watch "Hamilton" together was so fun, and I'm hoping \
+        we can watch more movies and musicals together, and maybe find new songs in them to learn together.`,
         "collage_photos/81.jpeg"
     ),
     new Xi(
         "83",
         imAlive(),
-        `I wanted to learn this before going to Taiwan and felt like I could spend Taiwan learning it. But I learned fast enough.`,
+        `The last song we learned before heading to our winter trips and Taiwan was "I'm Alive". I remember thinking I can probably start learning this before going \
+        to Taiwan so that I can have the whole time in Taiwan to learn it, since this is one of the toughest raps. However, I was so surprised how fast I ended \
+        up learning the song, as I finished learning the song before even heading to Taiwan. Our power of love definitely helps us in so many ways and helps us \
+        accomplish so many things together. I was so proud to learn this song and I'm so proud to have you as a girlfriend to perform this song with me, as even \
+        my mom was impressed to hear us perform this song. In retrospect, I'm glad we finished learning the song before heading to Taiwan since I didn't end up \
+        having much time to learn songs in Taiwan, and if I hadn't finished learning we wouldn't be able to perform it for my mom. I'm also glad we freed up some \
+        time to have fun together in Taiwan, and all the experiences we had all over Taiwan from Taipei to Taoyuan to Taichung to Tainan were so fun and will forever \
+        be beloved memories. I'm looking forward to making more memories with you and exploring more places around the world with you, and even though we don't \
+        have time to learn new songs while vacationing, I'm also looking forward to learning new songs and discovering new activities with you.`,
         "collage_photos/83.jpeg"
     ),
     new Xi(
@@ -190,19 +276,24 @@ function setupSidenav() {
         var a = document.createElement("a");
         a.innerText = xi.xi;
         a.setAttribute("href", "javascript:void(0)");
+        a.setAttribute("id", xi.xi)
         a.onclick = function() {
             if (!document.getElementById("keyboard").classList.contains("playing")) {
                 setScene(xi);
             }
         }
+        sidenav.appendChild(a);
+
         if (xi.xi === "126") {
             setScene(xi);
         }
-        sidenav.appendChild(a);
     }
 }
 
 function setScene(xi) {
+    var currentXi = document.getElementById("heartText").innerText;
+    document.getElementById(currentXi).style.fontWeight = "normal";
+
     document.getElementById("title").innerText = xi.song.name;
     document.getElementById("contentText").innerText = xi.content;
     if (xi.img != undefined) {
@@ -218,5 +309,7 @@ function setScene(xi) {
         heartAnimation();
         xi.song.play();
     }
+
+    document.getElementById(xi.xi).style.fontWeight = "bold";
     closeNav();
 }
