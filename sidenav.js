@@ -258,11 +258,56 @@ var xis = [
     new Xi(
         "126",
         happyBirthday(),
-        `My dearest and most precious baby,
+        `My dearest and most precious 的最親愛的可可愛愛寶貝 baby,
         Happy 26th birthday! I know you don't like talking about our age gap and getting old, but I like to think about it as us growing older and \
         learning together, our love getting stronger, and experiencing life together, forming fond memories, and writing the most beautiful and precious \
-        life story there ever was. Ever since the very first moment I met you, you've brought an immense amount of joy into my life and truly changed my \
-        life for the better, being my sturdy support in every situation, guiding me through struggles and life, and shaping my personality and behavior`,
+        life story there ever was. Ever since the very first moment I met you, you've brought an immense amount of joy into my life and you truly changed my \
+        life for the better, being my sturdy support in every situation, guiding me through struggles and life, and shaping my personality and behavior into \
+        a better person. I always like to think back to the moment we met and before we got together and wonder how such a seemingly innocent meeting flourished \
+        into the sweetest relationship we have now. The more I think about it, the less I need to wonder, since it seems like we are meant to be together and that \
+        it was always going turn out this way, as us being together is the way things are supposed to be. It really feels as if life, fate, and everything in \
+        the world is pulling us together, and we always find our way back to each other, and no matter what happens, we always end up loving each other more than ever. \
+        You really are the perfect key to my lock, and you are the only person who can open the door to my heart. I really appreciate how patient you are with me \
+        when I don't act like the way you are used to, and how you are so accepting of my many quirks, and how you are always there for me and supporting me when \
+        I'm having a tough time. I also appreciate when you teach me new things, when you are very willing to share everything about you and your days, when you \
+        show me new fun activities to do together, and how comfortable, open, and honest you are when you are around me. You also do so much for me, like cooking for me, \
+        buying and picking clothes for me, doing chores around the house, cutting my hair, and there really are an endless amount of things I'm grateful for. \
+        You also take care of me when I'm not feeling well, when I get injured, or the very rare times I get drunk, and I honestly can't appreciate you enough \
+        for everything you do for me. You truly are the most generous, caring, supportive, fun, talented, smart, savvy, candid, patient person I've ever met, and I \
+        can't find a suitable way to describe you other than the best and perfect girlfriend. It continuously amazes me more and more of how much of a perfect \
+        girlfriend you are, and somehow you just keep getting better and better. You really entered my life at the perfect time and I'll be forever grateful that you did, \
+        as I finally feel like a big hole in my life has been filled. Ever since we started texting and getting to know each other more, you were always \
+        willing to accompany me and spend so much time out of your day to make me happy. I'm generally very shy, not great at social interactions, and slow at \
+        texting, but you were very patient with me, and you make me feel comfortable to talk with you and be around you, slowly bringing me out of my shell from \
+        texting to audio messages to phone calls to video calls to face-to-face interactions. I often feel socially anxious and overthink a lot of things when \
+        I'm around other people, which is why I also don't like texting too much, but you completely changed everything for me. You were one of the first people \
+        I actually enjoyed texting with, and nowadays I feel like you're the only person in the world with whom I can truly be myself around. Sometimes it feels as if \
+        you're not really another person, but rather an extension of myself, a part of me that I was missing for most of my life, so it's so easy to be myself around you \
+        since I don't have any of the worries I usually have in social situations. This has also extended to my everyday life, especially when I'm around you, where \
+        I start to feel less and less shy, as you are always so encouraging and supportive, and it makes me feel more confident about myself. You always believe in me \
+        and never judge me for any of my strange behaviors, and it makes my life so much less anxious. Nowadays, when we are together with other people, I'm so overwhelmed \
+        by our love that I no longer feel shy and feel like our love is the one part of my life I never want to hide. Nothing else matters when I'm with you, and I often \
+        completely lose track of our surroundings and only want to focus on you and our love. Sometimes I remember how amazing of a girlfriend you are and just lose \
+        myself in your eyes and keep staring at you in public, especially after a day of not seeing you. In those moments I just completely forget that I'm usually shy, \
+        and a lot of the times when we do something affectionately in public, I think it's funny how it often ends up with you being more shy than me. When you're not around, \
+        I really can't stop thinking about you and thinking about how much I love you, so when you are with me, I feel like I want to keep saying I love you, and it's often \
+        hard to resist saying it in front of other people. The times that we are together are always so fond, sweet, and affectionate and even though we spend a lot \
+        of time together already, it never fails to make me happy and it always leaves me longing for more. It really feels like everyday is our honeymoon, as I somehow \
+        fall in love with you again and again everyday. Your personality is so positive and outgoing that you make everyone's lives around you so much better, and your beauty, \
+        cuteness, and bubbly behavior makes everyone want to get close to you. I know for me it's often hard to stop staring and admiring your personality and beauty, and I \
+        feel like the luckiest person in the world because I get to enjoy your presence the most, and no matter how much time I spend with you, I always feel like it's never enough \
+        and I'll never get tired of it. Because I keep wanting to spend time with you, I remember always trying to find excuses to try to get more time with you, and I wanted to \
+        actively find romantic activities to do together. However, eventually I realized that it really doesn't matter what we're doing, as our power of love is so strong that \
+        we always find ways to make anything romantic, sweet, and affectionate. I started to enjoy even the simple things and even the things that I never liked to do. I keep \
+        imagining our bright future as I envision spending everyday with you, enjoying every part of life with you.
+        
+        Through our many activites and time we spent together, we have formed so many loving memories and I always find it enjoyable to look back and think about \
+        our experiences together. One of our most beloved activites is playing music together, whether it be playing piano or singing duets, and in honor of this, I have placed \
+        a piano below so that we can play and practice from anywhere. We are writing the best life story ever together, and I hope you enjoy our life story so far \
+        with stories told through our songs or inspired by our songs. I am looking forward to writing every single 夕 with you into our life story until eternity.
+        I love you so much forever and always <3
+        With much love and yours truly,
+        Your 寶貝`,
         undefined
     )
 
