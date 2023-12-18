@@ -1,6 +1,6 @@
 import os
 
-note_photos_js = open("notePhotos.js", "w+")
+note_photos_js = open("globals/notePhotos.js", "w+")
 
 note_photos_js.write("var notePhotos = [\n")
 

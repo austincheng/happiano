@@ -1,0 +1,30 @@
+body {
+	font-family: Georgia;
+	background-color: #f48db4;
+}
+
+#topRow {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#topRow span {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1 {
+	display: flex;
+}
+
+
+
+
+
+

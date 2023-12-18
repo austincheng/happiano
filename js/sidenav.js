@@ -300,7 +300,7 @@ var xis = [
         actively find romantic activities to do together. However, eventually I realized that it really doesn't matter what we're doing, as our power of love is so strong that \
         we always find ways to make anything romantic, sweet, and affectionate. I started to enjoy even the simple things and even the things that I never liked to do. I keep \
         imagining our bright future as I envision spending everyday with you, enjoying every part of life with you.
-        
+
         Through our many activites and time we spent together, we have formed so many loving memories and I always find it enjoyable to look back and think about \
         our experiences together. One of our most beloved activites is playing music together, whether it be playing piano or singing duets, and in honor of this, I have placed \
         a piano below so that we can play and practice from anywhere. We are writing the best life story ever together, and I hope you enjoy our life story so far \
@@ -358,3 +358,6 @@ function setScene(xi) {
     document.getElementById(xi.xi).style.fontWeight = "bold";
     closeNav();
 }
+
+
+

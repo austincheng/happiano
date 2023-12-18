@@ -1,54 +1,3 @@
-body {
-	font-family: Georgia;
-	background-color: #f48db4;
-}
-
-#topRow {
-	position: relative;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
-#topRow span {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-h1 {
-	display: flex;
-}
-
-#center {
-	position: relative;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-}
-
-#content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;	
-}
-
-#contentText {
-	text-align: center;
-}
-
-#contentImage {
-	display: flex;
-	max-height: 400px;
-	align-items: center;
-}
-
-
 .key { 
 	position: absolute; 
 
@@ -115,22 +64,6 @@ h1 {
 	-moz-user-select:none;
 	-o-user-select:none; 
 }
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-
-
-
-
-
-
 
 
 
