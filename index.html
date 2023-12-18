@@ -15,6 +15,7 @@
 		<script src="sheetMusic.js"></script>
 		<script src="sidenav.js"></script>
 		<script src="heart.js"></script>
+		<script src="notePhotos.js"></script>
 		<script src="main.js"></script>
 
 	</head>
@@ -37,71 +38,71 @@
 			</div>
 			<div class="row">
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_C,-1" style="width:100%;visibility:hidden;">
+					<img id="pic_C,-1" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_D,-1" style="width:100%;visibility:hidden;">
+					<img id="pic_D,-1" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_E,-1" style="width:100%;visibility:hidden;">
+					<img id="pic_E,-1" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_F,-1" style="width:100%;visibility:hidden;">
+					<img id="pic_F,-1" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_G,-1" style="width:100%;visibility:hidden;">
+					<img id="pic_G,-1" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_A,-1" style="width:100%;visibility:hidden;">
+					<img id="pic_A,-1" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_B,-1" style="width:100%;visibility:hidden;">
-				</div>
-			</div>
-			<div class="row">
-				<div class="column">
-					<img src="photos/test.jpeg" id="pic_C,0" style="width:100%;visibility:hidden;">
-				</div>
-				<div class="column">
-					<img src="photos/test.jpeg" id="pic_D,0" style="width:100%;visibility:hidden;">
-				</div>
-				<div class="column">
-					<img src="photos/test.jpeg" id="pic_E,0" style="width:100%;visibility:hidden;">
-				</div>
-				<div class="column">
-					<img src="photos/test.jpeg" id="pic_F,0" style="width:100%;visibility:hidden;">
-				</div>
-				<div class="column">
-					<img src="photos/test.jpeg" id="pic_G,0" style="width:100%;visibility:hidden;">
-				</div>
-				<div class="column">
-					<img src="photos/test.jpeg" id="pic_A,0" style="width:100%;visibility:hidden;">
-				</div>
-				<div class="column">
-					<img src="photos/test.jpeg" id="pic_B,0" style="width:100%;visibility:hidden;">
+					<img id="pic_B,-1" style="width:100%;visibility:hidden;">
 				</div>
 			</div>
 			<div class="row">
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_C,1" style="width:100%;visibility:hidden;">
+					<img id="pic_C,0" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_D,1" style="width:100%;visibility:hidden;">
+					<img id="pic_D,0" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_E,1" style="width:100%;visibility:hidden;">
+					<img id="pic_E,0" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_F,1" style="width:100%;visibility:hidden;">
+					<img id="pic_F,0" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_G,1" style="width:100%;visibility:hidden;">
+					<img id="pic_G,0" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_A,1" style="width:100%;visibility:hidden;">
+					<img id="pic_A,0" style="width:100%;visibility:hidden;">
 				</div>
 				<div class="column">
-					<img src="photos/test.jpeg" id="pic_B,1" style="width:100%;visibility:hidden;">
+					<img id="pic_B,0" style="width:100%;visibility:hidden;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img id="pic_C,1" style="width:100%;visibility:hidden;">
+				</div>
+				<div class="column">
+					<img id="pic_D,1" style="width:100%;visibility:hidden;">
+				</div>
+				<div class="column">
+					<img id="pic_E,1" style="width:100%;visibility:hidden;">
+				</div>
+				<div class="column">
+					<img id="pic_F,1" style="width:100%;visibility:hidden;">
+				</div>
+				<div class="column">
+					<img id="pic_G,1" style="width:100%;visibility:hidden;">
+				</div>
+				<div class="column">
+					<img id="pic_A,1" style="width:100%;visibility:hidden;">
+				</div>
+				<div class="column">
+					<img id="pic_B,1" style="width:100%;visibility:hidden;">
 				</div>
 			</div>
 		</div>
@@ -117,5 +118,9 @@
 		setupHeartAnimations();
 		setupEventListeners();
 		setupSidenav();
+
+		for (var note of notePhotos) {
+			document.getElementById("pic_G,1").src = note;
+		}
 	</script>
 </html>

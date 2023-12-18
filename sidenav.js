@@ -17,12 +17,6 @@ class Xi {
 
 var xis = [
     new Xi(
-        "126",
-        happyBirthday(),
-        "Happy Birthday!",
-        undefined
-    ),
-    new Xi(
         "-9",
         eleven(),
         `It's funny how what we'd probably consider our "first date" wasn't even supposed to be a "date". Neither of us \
@@ -35,7 +29,7 @@ var xis = [
         enough to sing in front of you, I sang this song for you as well. You said you enjoyed my singing of this song in particular, \
         and much like you do every day of my life, you give me confidence, strength, and comfort in everyday life. You really do "make \
         me feel like eleven".`,
-        "photos/collage_photos/-9.jpeg"
+        "collage_photos/-9.jpeg"
     ),
     new Xi(
         "-2",
@@ -49,7 +43,7 @@ var xis = [
         and I think we both couldn't wait the full two weeks. Since then, we both enjoyed many piano sessions together, but we do need to \
         practice more :) (I also think it's cool that the first time I played piano with you was "Turkish March", and during your first birthday \
         together, it's my first time going to Turkey.)`,
-        "photos/collage_photos/-2.jpg"
+        "collage_photos/-2.jpg"
     ),
     new Xi(
         "12",
@@ -60,7 +54,7 @@ var xis = [
         dates with you, going on unique adventures, exploring the world together, and creating everlasting memories. So, we needed to establish \
         Sunday as our official date day. On our first Sunday together, we finally had our first formal date night, and we ended the night with \
         our first piano session together, and we started learning a piano duet together, "The All-American Hometown Band".`,
-        "photos/collage_photos/12.jpeg"
+        "collage_photos/12.jpeg"
     ),
     new Xi(
         "30",
@@ -71,13 +65,13 @@ var xis = [
         I enjoy doing with you so much is our singing duets together, which is not only enjoyable, but I think we are also able to learn from these \
         experiences together. The first song we learned together was "私奔到月球", which perfectly describes our compatability and constant bond to be \
         together, hoping one day we can "私奔到月球" and be worry-free and spend the rest of our lives together in eternal bliss.`,
-        "photos/collage_photos/30.jpeg"
+        "collage_photos/30.jpeg"
     ),
     new Xi(
         "31",
         niBeiXieZaiWoDeGeLi(),
         `Driving to work chore`,
-        "photos/collage_photos/31.jpg"
+        "collage_photos/31.jpg"
     ),
     new Xi(
         "33",
@@ -85,7 +79,7 @@ var xis = [
         `As we learn more and more songs, we find more and more songs that describe our love story, as if the world is pulling us together \
         and describing our story. I love reminiscing about our "小時候", and why it took so long for the world to bring us together, the whole time \
         thinking to tell you "不要告訴我的你還不知道 I love you baby."`,
-        "photos/collage_photos/33.jpeg"
+        "collage_photos/33.jpeg"
     ),
     new Xi(
         "34",
@@ -94,8 +88,94 @@ var xis = [
         The first time I learned a Chinese rap verse with you was from "你怎麼還不愛", and it always makes me so happy when I see the joy on your \
         face when I learn a new song, especially the tougher Chinese raps. I like this song especially because it reminds me of our love story, where \
         when you said you needed two weeks before we got together, I kept thinking to myself "你怎麼還不愛？"`,
-        "photos/collage_photos/34.jpeg"
+        "collage_photos/34.jpeg"
+    ),
+    new Xi(
+        "37",
+        dimples(),
+        `I will never get tired of your beauty`,
+        "collage_photos/37.jpeg"
+    ),
+    new Xi(
+        "38",
+        lianXiAiQing(),
+        `I really am excited to grow and learn with you.`,
+        "collage_photos/38.jpeg"
+    ),
+    new Xi(
+        "39",
+        youDianTian(),
+        `I love our sweetness. We are not "有點甜", we are "非常甜".`,
+        "collage_photos/39.jpeg"
+    ),
+    new Xi(
+        "41",
+        iWillBeByYourSide(),
+        `I never want to leave your side, and always want to hug `,
+        "collage_photos/41.jpeg"
+    ),
+    new Xi(
+        "49",
+        messedUp(),
+        `I remember only wanting to sing love songs.`,
+        "collage_photos/49.jpeg"
+    ),
+    new Xi(
+        "50",
+        zhiShanShanLaiChiDeNi(),
+        `This is one of the first songs I remember hearing you sing. Playing your music and hearing you rap I thought it was cool.`,
+        "collage_photos/50.jpeg"
+    ),
+    new Xi(
+        "51",
+        loveDoesntNeedToPretend(),
+        `Learning rap is fun. Learning Chinese too`,
+        "collage_photos/51.jpeg"
+    ),
+    new Xi(
+        "59",
+        aiDeZhuXuanLu(),
+        `This song was fun because I was hoping to learn new songs after you came back from business trip, but I procrastinated \
+        and tried to cram learning this song the day you came back. Travel stuff`,
+        "collage_photos/59_1.jpeg"
+    ),
+    new Xi(
+        "59",
+        liangShanBoYuZhuLiYe(),
+        `I feel like I became faster at learning songs. I tried learning these two songs on the same day"`,
+        "collage_photos/59_2.jpeg"
+    ),
+    new Xi(
+        "62",
+        nianNian(),
+        `One of my favorite songs`,
+        "collage_photos/62.jpeg"
+    ),
+    new Xi(
+        "63",
+        shaXiao(),
+        `Hehe`,
+        "collage_photos/63.jpeg"
+    ),
+    new Xi(
+        "81",
+        rewriteTheStars(),
+        `Finally an English song`,
+        "collage_photos/81.jpeg"
+    ),
+    new Xi(
+        "83",
+        imAlive(),
+        `I wanted to learn this before going to Taiwan and felt like I could spend Taiwan learning it. But I learned fast enough.`,
+        "collage_photos/83.jpeg"
+    ),
+    new Xi(
+        "126",
+        happyBirthday(),
+        "Happy Birthday!",
+        undefined
     )
+
 ]
 
 function setupSidenav() {
@@ -111,7 +191,7 @@ function setupSidenav() {
                 setScene(xi);
             }
         }
-        if (i == 0) {
+        if (xi.xi === "126") {
             setScene(xi);
         }
         sidenav.appendChild(a);

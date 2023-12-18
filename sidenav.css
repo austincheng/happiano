@@ -8,7 +8,7 @@
   background-color: #c9356c;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 #sidenav a {
@@ -31,9 +31,4 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }

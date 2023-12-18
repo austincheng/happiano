@@ -73,6 +73,19 @@ function playNote(noteText) {
 	if (keysPressed.indexOf(noteText) != -1) {
 		return;
 	}
+
+	var note = noteText.split(",")[0];
+	var octave = noteText.split(",")[1];
+	var naturalNoteText = note[0] + "," + octave;
+
+	var img = document.getElementById("pic_" + naturalNoteText);
+	if (img) {
+		img.src = notePhotos[Math.floor(Math.random() * notePhotos.length)]
+		img.onload = function() {
+			img.style.visibility = "visible";
+		}
+	}
+
 	keysPressed.push(noteText);
 
 	if (keyboard[noteText]) {
@@ -83,14 +96,6 @@ function playNote(noteText) {
 
 	audio = playSound(noteText);
 
-	var note = noteText.split(",")[0];
-	var octave = noteText.split(",")[1];
-	var naturalNoteText = note[0] + "," + octave;
-
-	var img = document.getElementById("pic_" + naturalNoteText);
-	if (img) {
-		img.style.visibility = "visible";
-	}
 	document.getElementById("content").style.display = "none";
 }
 
