@@ -211,7 +211,8 @@ var xis = [
         girlfriend that I always try to find ways to keep up with your awesomeness, so I keep trying to find ways to show off in front of you. I tried learning \
         "梁山伯與茱麗葉" before you got back from your trip, and I was surprised by how fast I started learning songs now, as I was able to learn two songs in one day. \
         I also remember everytime you come back from your trip, I get so nervous to perform in front of you, wanting to show you my best and show you how fast \
-        I learn songs. Fortunately for that day, even though I tried cramming two songs in one day, I think I still did relatively well hehe."`,
+        I learn songs. This applies to any activity we do, especially new activities, since I want to show you the best side of me in everything, so I get nervous \
+        to do many things in front of you. Fortunately for that day, even though I tried cramming two songs in one day, I think I still did relatively well."`,
         "collage_photos/59_2.jpeg"
     ),
     new Xi(
