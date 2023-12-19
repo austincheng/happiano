@@ -172,14 +172,14 @@ var xis = [
         "50",
         zhiShanShanLaiChiDeNi(),
         `I remember the first time hearing you sing casually was on the car ride from the day we watched Mission Impossible, where you just casually sang along with some \
-        K-pop songs. Even though you weren't very familiar with the lyrics, I still remember how fun you make everything and you just radiate the vibe of a joyful flow of \
+        K-pop songs. Even though you weren't very familiar with the lyrics, I still remember how fun you make everything and you just radiate the vibe of a joyful glow of \
         sunshine, even when just singing casually. When I finally got to carpool and hear you sing more songs, I absolutely fell in love with your voice and your singing voice \
         is warm yet heavenly. Not only are you an extremely talented singer, you also memorized the lyrics to basically every song, and it's so cool hearing you sing song after \
         song without messing up tune or lyrics. Even rap songs with rap verses that are a few minutes long, you manage to keep up and continuously put on a show of fantasic music. \
         I'm so fortunate to have such a beautiful voice be my duet partner, and it's a pleasure hearing you sing every day in the car. I remember one of the first times we carpooled, \
         we switched over to listening to your music for the first time, and it made my day hearing you sing properly for the first time. I'm so glad we decided to switch from my music \
         to your music, as we now have so many songs we can sing together as duets. One of the first songs I remember hearing you sing was "致姗姗来迟的你", and I loved the way you \
-        seamlessly transitioned from singing to rapping, and your rapping of this song I think is espcially cool. I love seeing you perform more and more talents, from \
+        seamlessly transitioned from singing to rapping, and your rapping of this song I think is especially cool. I love seeing you perform more and more talents, from \
         playing piano, singing, and rapping to playing ping-pong and badminton, and I can't wait to discover every part of my amazing girlfriend.`,
         "collage_photos/50.jpeg"
     ),
