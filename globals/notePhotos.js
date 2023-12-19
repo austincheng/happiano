@@ -14,7 +14,6 @@ var notePhotos = [
 	"note_photos/20230930_164745.jpg",
 	"note_photos/20231001_175154.jpg",
 	"note_photos/20230929_133033.jpg",
-	"note_photos/.DS_Store",
 	"note_photos/PXL_20231203_115846993.jpg",
 	"note_photos/PXL_20231125_231824213.jpg",
 	"note_photos/20230827_201032.jpg",
