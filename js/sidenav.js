@@ -99,7 +99,10 @@ var xis = [
         whyNotLove(),
         `The more I spend time with you, the more fun we have together and the more I love you, as we have more and more shared experiences. \
         The first time I learned a Chinese rap verse with you was from "你怎麼還不愛", and it always makes me so happy when I see the joy on your \
-        face when I learn a new song, especially the tougher Chinese raps. I like this song especially because it reminds me of our love story, where \
+        face when I learn a new song, especially the tougher Chinese raps. This was the first time I rapped for you, and I felt so proud when you said \
+        that my voice really suited the rap for this song, and you were impressed when I finally hit the rhythm of the rap. You always keep encouraging me \
+        even when I make mistakes, so you always make me feel confident, which also helps me learn songs faster. You always believe in me and it really \
+        gives me motivation to do many things in life. I like this song especially because it reminds me of our love story, where \
         when you said you needed two weeks before we got together, I kept thinking to myself "你怎麼還不愛？"`,
         "collage_photos/34.jpeg"
     ),
