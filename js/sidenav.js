@@ -116,9 +116,10 @@ var xis = [
         I love the way your gorgeous hair flows, and you always pull them back with a hair band and tie them when you play badminton, and no matter how you style \
         your hair, I'm always mesmerized by the attractiveness. When you look back at me and acknowledge me with a smile, it feels like the world completely stops and \
         is lit up by the radiance of your beaming happiness. Then, your one-sided "小酒窩" appears and I remember thinking how unique it is, and I felt like it was the \
-        cutest thing I ever seen. Then your smile exposes your teeth, and the cuteness just multiplies, and I see your "tiger tooth" and you somehow just keep getting \
-        cuter and cuter. The first time I noticed your "tiger tooth", I really was in awe and I couldn't stop looking at how cute you are, and in that moment, I remember \
-        feeling like I was no longer shy and I just couldn't resist continuously complimenting you. Whenever I see you, you really do get prettier and prettier everytime, \
+        cutest thing I ever seen. Then your smile exposes your teeth, and the cuteness just multiplies, and I see your "虎牙" and you somehow just keep getting \
+        cuter and cuter. The first time I noticed your "虎牙", I really was in awe and I couldn't stop looking at how cute you are, and in that moment, I remember \
+        feeling like I was no longer shy and I just couldn't resist continuously complimenting you. Seeing you blush and feel shy as I kept complimenting you \
+        adds to the cuteness, and it just brightens my entire mood. Whenever I see you, you really do get prettier and prettier everytime, \
         and it always makes me want to stop and take a photo, making my phone storage full of your stunning face, and allowing myself to enjoy your beauty at any time. \
         You also are so good at posing for photos, and making so many different kinds of faces and smiles, and somehow every expression you make is the most wonderful \
         thing I've ever seen. Even after all this time and seeing your face millions of times, I still wonder how such a heavenly and dreamy goddess can walk this earth, \
