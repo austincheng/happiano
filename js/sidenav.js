@@ -237,7 +237,7 @@ var xis = [
         with you, since we get to capture our loving relationship in so many cool places. I also think it's so cool how great of a photographer you are, and you are \
         always teaching me new things on better ways to capture the moments. I'm so appreciative that you are patient with me and are willing to teach me so much, so \
         that I don't just make the same "傻笑" for every photo.`,
-        "collage_photos/63.jpeg"
+        "collage_photos/63.jpg"
     ),
     new Xi(
         "81",
