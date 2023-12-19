@@ -243,7 +243,7 @@ var xis = [
         "81",
         rewriteTheStars(),
         `There are so many places we get inspiration for new duets to learn, and I was glad when we finally learned a song that I already knew and that it was \
-        an English song, "Rewrite the Stars". I love musicals and I'm happy we finally found a song that we both knew, and I think we can probably take more \
+        an English song, "Rewrite the Stars". I love musicals and I'm happy we finally found a song that we both knew already, and I think we can probably take more \
         inspiration from musicals, since you already know how much I love "Hamilton". The day we got to watch "Hamilton" together was so fun, and I'm hoping \
         we can watch more movies and musicals together, and maybe find new songs in them to learn together.`,
         "collage_photos/81.jpeg"
