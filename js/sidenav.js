@@ -252,7 +252,7 @@ var xis = [
         "83",
         imAlive(),
         `The last song we learned before heading to our winter trips and Taiwan was "I'm Alive". I remember thinking I can probably start learning this before going \
-        to Taiwan so that I can have the whole time in Taiwan to learn it, since this is one of the toughest raps. However, I was so surprised how fast I ended \
+        to Taiwan so that I can have the whole time in Taiwan to learn it, since this is one of the toughest raps. However, I was so surprised by how fast I ended \
         up learning the song, as I finished learning the song before even heading to Taiwan. Our power of love definitely helps us in so many ways and helps us \
         accomplish so many things together. I was so proud to learn this song and I'm so proud to have you as a girlfriend to perform this song with me, as even \
         my mom was impressed to hear us perform this song. In retrospect, I'm glad we finished learning the song before heading to Taiwan since I didn't end up \
