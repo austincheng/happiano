@@ -102,7 +102,6 @@ function adjustContentMaxHeight() {
 
 	var remainingHeight = windowHeight - topRowHeight - keyboardHeight - keyboardMargin - additionalSlack;
 
-	console.log(remainingHeight);
 	var content = document.getElementById('content');
 	content.style.maxHeight = remainingHeight + 'px';
 }
