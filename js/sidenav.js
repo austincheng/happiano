@@ -344,9 +344,11 @@ function setScene(xi) {
     if (xi.img != undefined) {
         document.getElementById("contentImage").src = xi.img;
         document.getElementById("contentImage").visibility = "visible";
+        adjustImageSize();
     } else {
         document.getElementById("contentImage").src = "";
         document.getElementById("contentImage").visibility = "hidden";
+        adjustContentMaxHeight();
     }
     
     document.getElementById("heartText").innerText = xi.xi;

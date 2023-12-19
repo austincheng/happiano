@@ -66,6 +66,41 @@ function setupEventListeners() {
 			unplayNote(keyToNoteText[e.key.toUpperCase()])
 		}
 	});	
+
+	// Adjust image size dynamically on window resize
+	window.addEventListener('resize', adjustImageSize);
+	window.addEventListener('resize', adjustContentMaxHeight);
+}
+
+function adjustImageSize() {
+	var windowHeight = window.innerHeight;
+	var topRowHeight = document.getElementById("topRow").offsetHeight;
+	var contentTextHeight = document.getElementById("contentText").offsetHeight;
+	var keyboardHeight = document.getElementById("keyboard").offsetHeight;
+	var keyboardMargin = 60;
+	var additionalSlack = 30;
+	var image = document.getElementById("contentImage");
+
+	var remainingHeight = windowHeight - topRowHeight - contentTextHeight - keyboardHeight - keyboardMargin - additionalSlack;
+
+	if (remainingHeight > 0 && image.visibility == "visible") {
+		image.style.maxHeight = remainingHeight + 'px';
+	}
+}
+
+function adjustContentMaxHeight() {
+	var windowHeight = window.innerHeight;
+	var topRowHeight = document.getElementById("topRow").offsetHeight;
+	var keyboardHeight = document.getElementById("keyboard").offsetHeight;
+	var keyboardMargin = 60;
+	// A little hacky and not sure why but this works much better
+	var additionalSlack = -10;
+
+	var remainingHeight = windowHeight - topRowHeight - keyboardHeight - keyboardMargin - additionalSlack;
+
+	console.log(remainingHeight);
+	var content = document.getElementById('content');
+	content.style.maxHeight = remainingHeight + 'px';
 }
 
 function playNote(noteText) {
