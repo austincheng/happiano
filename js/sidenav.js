@@ -224,8 +224,8 @@ var xis = [
         I'm overly clingy to you, but you always assure me that you like me being this way and that I have to be this way towards you forever. It honestly \
         makes me so happy when you say that, since I can just continue being myself and continue having the very best sweet and loving relationship with you. \
         People say we may start to get tired of each other and the honeymoon period will eventually end, but even after spending every second with you, not only \
-        am I not tired at all, I always want more no matter how much time we've already spent together. I will never get tired of you by my side and I wish I can \
-        be stuck to you forever.`,
+        am I not tired at all, I always want more no matter how much time we've already spent together. I truly want to spend every second with you, and \
+        I will never get tired of you by my side and I wish I can be stuck to you forever.`,
         "collage_photos/62.jpeg"
     ),
     new Xi(
