@@ -167,6 +167,8 @@ function unplayNote(noteText) {
 	if (keysPressed.length == 0 && !keyboard.classList.contains("playing")) {
 		document.getElementById("content").style.display = "flex";
 		document.getElementById("notePhotos").style.display = "none";
+		adjustContentMaxHeight();
+		adjustImageSize();
 	}
 }
 
