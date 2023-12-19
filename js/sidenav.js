@@ -153,8 +153,8 @@ var xis = [
         `My happiness is really immeasurable when I'm with you, that I never want to leave your side, and even when we're apart for a little bit, I always feel like \
         a part of me is missing. Whenever you had to go on a business trip, or when we have to be apart now for vacations and trips, my life becomes so much more empty. \
         I always want to be by your side and even when I'm with you, I always want to be as physically close to you as possible, always wanting to sit next to you, \
-        holding hands, and hugging, even when I'm driving. Although a month isn't too long in the grand scheme of things, this month of time while we're apart feels \
-        like an eternity and I miss everything about you and lack the loving sweetness that makes life so much better. I also keep feeling helpless when you \
+        holding hands, and hugging, even when one of us is busy or when I am driving. Although a month isn't too long in the grand scheme of things, this month of time while \
+        we're apart feels like an eternity and I miss everything about you and lack the loving sweetness that makes life so much better. I also keep feeling helpless when you \
         have struggles and I can't be there to protect you or help you. In the future, I promise "我會在你身邊" so that we can walk together in loving embrace until eternity.`,
         "collage_photos/41.jpeg"
     ),
