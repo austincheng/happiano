@@ -198,10 +198,10 @@ var xis = [
         aiDeZhuXuanLu(),
         `The first time you went on a business trip was pretty tough for me, since I had gotten so accustomed to you being around, and I felt like I forgot \
         how to live without you. I lost motivation to do many things, like going to work became a chore again and I didn't really have much motivation to \
-        learn songs anymore. You really make my life so much better by being my encouragement and support, and I felt lost again with you. The day you were coming \
+        learn songs anymore. You really make my life so much better by being my encouragement and support, and I felt lost again without you. The day you were coming \
         back from the business trip, I remember thinking I was supposed to learn many songs and surprise you with my progress when you got back. However, I ended \
         up procrastinating and I tried cramming learning the song "愛的主旋律" the day you were getting back. I found that after much practice in learning songs \
-        and having a wonderful singing teacher helped me a lot, as I was not only able to finish learning the song, I was also able to learn another song.`,
+        and having a wonderful singing teacher helped me a lot, as I was not only able to finish learning this one song, I was also able to learn another song.`,
         "collage_photos/59_1.jpeg"
     ),
     new Xi(
