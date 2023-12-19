@@ -86,9 +86,12 @@ var xis = [
     new Xi(
         "33",
         dontYouKnowYet(),
-        `As we learn more and more songs, we find more and more songs that describe our love story, as if the world is pulling us together \
-        and describing our story. I love reminiscing about our "小時候", and why it took so long for the world to bring us together, the whole time \
-        thinking to tell you "不要告訴我的你還不知道 I love you baby."`,
+        `As we learn more songs, we find more and more songs that describe our love story, as if the world is pulling us together \
+        and describing our story. I love reminiscing about our "小時候", and I think it's so funny how we have always had some mutual feelings toward \
+        each other, and yet we were always so hesitant to make any moves towards each other. We both felt like our signals towards each other were \
+        obvious, and yet it took some time before we finally picked up on them. Knowing how sweet and affectionate our relationship is now, it seems \
+        obvious in hindsight that we should've gotten together sooner. I keep wondering why it took so long for the world to bring us together, \
+        the whole time thinking to tell you "不要告訴我你還不知道 I love you baby."`,
         "collage_photos/33.jpeg"
     ),
     new Xi(
