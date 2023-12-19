@@ -70,6 +70,10 @@ function setupEventListeners() {
 	// Adjust image size dynamically on window resize
 	window.addEventListener('resize', adjustImageSize);
 	window.addEventListener('resize', adjustContentMaxHeight);
+
+	window.addEventListener("mousedown", function() {
+		closeNav();
+	});
 }
 
 function adjustImageSize() {
