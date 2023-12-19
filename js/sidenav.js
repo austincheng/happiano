@@ -36,13 +36,12 @@ var xis = [
         turkishMarch(),
         `You really make my life so much better, and ever since I met you, I felt like you radiate a big glow of happiness \
         for everyone around you, and it makes me feel difficult when I'm not by your side. At some point we both knew exactly where \
-        life was going to take us, and I felt such a strong attraction that I couldn't wait to be with your forever, and yet you asked \
+        life was going to take us, and I felt such a strong attraction that I couldn't wait to be with you forever, and yet you asked \
         me to wait for two weeks before officially labeling us together. A few days later, we went shopping together and even though \
         we hadn't officially defined anything, it felt like we were a couple for the first time. That day, I also played piano in front \
         of you for the first time, where I played my signature song "Turkish March". Two days later, we ended up officially getting together, \
         and I think we both couldn't wait the full two weeks. Since then, we both enjoyed many piano sessions together, but we do need to \
-        practice more :) (I also think it's cool that the first time I played piano with you was "Turkish March", and during your first birthday \
-        together, it's my first time going to Turkey.)`,
+        practice more :)`,
         "collage_photos/-2.jpg"
     ),
     new Xi(
