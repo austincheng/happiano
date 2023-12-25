@@ -52,8 +52,7 @@ class Rest {
 }
 
 class Song {
-	constructor(name, chords, bpm) {
-		this.name = name;
+	constructor(chords, bpm) {
 		this.chords = chords;
 		this.bpm = bpm;
 	}
@@ -87,7 +86,6 @@ class Song {
 
 function eleven() {
 	return new Song(
-		"Eleven",
 		[
 			new Chord(["G#,0"], 1/4),
 			new Chord(["G#,0"], 1/4),
@@ -245,7 +243,6 @@ function eleven() {
 
 function turkishMarch() {
 	return new Song(
-		"Turkish March",
 		[
 			new Chord(["A,-1", "A,0"], 1/8),
 			new Chord(["B,-1", "B,0"], 1/8),
@@ -283,7 +280,6 @@ function turkishMarch() {
 
 function allAmericanHometownBand() {
 	return new Song(
-		"The All-American Hometown Band",
 		[
 			new Chord(["E,0"], 1/16),
 			new Chord(["D#,0"], 1/16),
@@ -335,7 +331,6 @@ function allAmericanHometownBand() {
 
 function elopingToTheMoon() {
 	return new Song(
-		"私奔到月球",
 		[
 			new Chord(["B,0"], 1/8),
 			new Chord(["C,1"], 1/8),
@@ -395,7 +390,6 @@ function elopingToTheMoon() {
 
 function niBeiXieZaiWoDeGeLi() {
 	return new Song(
-		"你被寫在我的歌裡",
 		[
 			new Chord(["F,0"], 1/8),
 			new Chord(["F,0"], 1/8),
@@ -479,7 +473,6 @@ function niBeiXieZaiWoDeGeLi() {
 
 function dontYouKnowYet() {
 	return new Song(
-		"你還不知道？",
 		[
 			new Chord(["F,0"], 1/4),
 			new Chord(["G,0"], 1/4),
@@ -521,7 +514,6 @@ function dontYouKnowYet() {
 
 function whyNotLove() {
 	return new Song(
-		"怎麼還不愛",
 		[
 			new Chord(["D,1"], 1/16),
 			new Chord(["D,1"], 1/16),
@@ -568,7 +560,6 @@ function whyNotLove() {
 
 function dimples() {
 	return new Song(
-		"小酒窩",
 		[
 			new Chord(["E,0"], 3/8),
 			new Chord(["E,0"], 1/8),
@@ -609,7 +600,6 @@ function dimples() {
 
 function lianXiAiQing() {
 	return new Song(
-		"練習愛情",
 		[
 			new Chord(["E,0"], 1/8),
 			new Chord(["E,0"], 1/8),
@@ -676,7 +666,6 @@ function lianXiAiQing() {
 
 function youDianTian() {
 	return new Song(
-		"有點甜",
 		[
 			new Chord(["E,0"], 1/8),
 			new Chord(["F#,0"], 1/8),
@@ -731,7 +720,6 @@ function youDianTian() {
 
 function iWillBeByYourSide() {
 	return new Song(
-		"我會在你身邊",
 		[
 			new Chord(["D,0"], 1/8),
 			new Chord(["B,0"], 1/8),
@@ -771,7 +759,6 @@ function iWillBeByYourSide() {
 
 function messedUp() {
 	return new Song(
-		"Messed Up",
 		[
 			new Chord(["C,1"], 1/16),
 			new Chord(["D,1"], 1/16),
@@ -850,7 +837,6 @@ function messedUp() {
 
 function zhiShanShanLaiChiDeNi() {
 	return new Song(
-		"致姗姗来迟的你",
 		[
 			new Chord(["E,1"], 1/8),
 			new Chord(["D,1"], 1/8),
@@ -881,7 +867,6 @@ function zhiShanShanLaiChiDeNi() {
 
 function loveDoesntNeedToPretend() {
 	return new Song(
-		"愛不需要裝乖",
 		[
 			new Chord(["F,-1"], 1/8),
 			new Chord(["G#,-1"], 1/8),
@@ -921,7 +906,6 @@ function loveDoesntNeedToPretend() {
 
 function aiDeZhuXuanLu() {
 	return new Song(
-		"愛的主旋律",
 		[
 			new Chord(["E,0"], 1/8),
 			new Chord(["A,0"], 1/8),
@@ -987,7 +971,6 @@ function aiDeZhuXuanLu() {
 
 function liangShanBoYuZhuLiYe() {
 	return new Song(
-		"梁山伯與茱麗葉",
 		[
 			new Chord(["F#,1"], 1/8),
 			new Chord(["F#,1"], 1/8),
@@ -1038,7 +1021,6 @@ function liangShanBoYuZhuLiYe() {
 
 function nianNian() {
 	return new Song(
-		"黏黏",
 		[
 			new Chord(["D,0"], 1/2),
 			new Chord(["D,0"], 1/4),
@@ -1115,7 +1097,6 @@ function nianNian() {
 
 function shaXiao() {
 	return new Song(
-		"傻笑",
 		[
 			new Chord(["A#,0"], 1/8),
 			new Chord(["A#,0"], 1/8),
@@ -1217,7 +1198,6 @@ function shaXiao() {
 
 function rewriteTheStars() {
 	return new Song(
-		"Rewrite The Stars",
 		[
 			new Chord(["D,0"], 1/8),
 			new Chord(["E,0"], 1/8),
@@ -1294,7 +1274,6 @@ function rewriteTheStars() {
 
 function imAlive() {
 	return new Song(
-		"I'm Alive",
 		[
 			new Chord(["C#,1"], 1/4),
 			new Chord(["C,1"], 1/8),
@@ -1318,8 +1297,6 @@ function imAlive() {
 			new Chord(["A#,0"], 1/4),
 			new Chord(["G,0"], 1/4),
 			new Rest(1/4),
-
-
 			new Chord(["C#,1"], 1/4),
 			new Chord(["C,1"], 1/8),
 			new Chord(["C,1"], 1/8),
@@ -1341,9 +1318,6 @@ function imAlive() {
 			new Chord(["G#,0"], 1/8),
 			new Chord(["A#,0"], 1/4),
 			new Chord(["G,0"], 1/2),
-
-
-
 			new Chord(["C,1"], 1/8),
 			new Chord(["A#,0"], 1/8),	
 			new Chord(["G#,0"], 1/8),
@@ -1361,8 +1335,6 @@ function imAlive() {
 			new Chord(["D#,1"], 1/4),
 			new Chord(["C,1"], 1/4),				
 			new Chord(["A#,0"], 1/2),	
-
-
 			new Chord(["C#,1"], 1/4),
 			new Chord(["C,1"], 1/8),
 			new Chord(["C,1"], 1/8),
@@ -1378,7 +1350,6 @@ function imAlive() {
 			new Chord(["C,1"], 1/8),
 			new Chord(["C,1"], 1/16),
 			new Chord(["A#,0"], 1/8),
-
 			new Rest(1/4),
 			new Chord(["G#,0"], 1/8),
 			new Chord(["G#,0"], 1/8),
@@ -1392,7 +1363,6 @@ function imAlive() {
 
 function happyBirthday() {
 	return new Song(
-		"Happy Birthday!",
 		[
 			new Chord(["G,0"], 1/8),
 	        new Chord(["G,0"], 1/8),

@@ -4,11 +4,15 @@ var CENTER_OCTAVE = 4; // sets position of middle C, normally the 4th octave
 
 function setupKeyboardHTML() {
 	var keyboard = document.getElementById('keyboard');
+	var notePhotos = document.getElementById("notePhotos")
 
 	var iWhite = 0;
 	var notes = AUDIO_SYNTH._notes; // C, C#, D, D#, E, F, F#, G, G#, A, A#, B
 
 	for (var i = -1; i <= 1; i++) {
+		var notePhotoRow = document.createElement("div");
+		notePhotoRow.setAttribute("class", "row");
+
 		for (var note in notes) {
 			var key = document.createElement('div');
 			if (note[1] == '#') {
@@ -41,7 +45,20 @@ function setupKeyboardHTML() {
 			});
 			keyboard[noteText] = key;
 			keyboard.appendChild(key);
+
+
+			if (note[1] != '#') {
+				var notePhoto = document.createElement("div");
+				notePhoto.setAttribute("class", "column");
+				var img = document.createElement("img");
+				img.setAttribute("id", "pic_" + noteText);
+				img.style.width = "100%";
+				img.style.visibility = "hidden";
+				notePhoto.appendChild(img);
+				notePhotoRow.appendChild(notePhoto);
+			}
 		}
+		notePhotos.appendChild(notePhotoRow);
 	}
 
 	keyboard.style.width = iWhite * 40 + 'px';
