@@ -28,14 +28,27 @@ function setupSidenav() {
     }
 }
 
+function getOrEnglish(string) {
+    var language = window.navigator.language;
+    if (!(language in string) || string[language] == "") {
+        language = "en-US";
+    }
+    return string[language];
+}
+
 function setScene(xi) {
     var currentXi = document.getElementById("heartText").innerText;
     if (currentXi != "") {
         document.getElementById(currentXi).style.fontWeight = "normal";
     }
 
-    document.getElementById("title").innerText = xi.title[window.navigator.language];
-    document.getElementById("contentText").innerText = xi.message[window.navigator.language];
+    var language = window.navigator.language;
+    if (!(language in xi.title) || xi.title[language] == "") {
+        language = "en-US";
+    }
+    document.getElementById("title").innerText = getOrEnglish(xi.title);
+    document.getElementById("contentText").innerText = getOrEnglish(xi.message);
+    
     if (xi.img != undefined) {
         document.getElementById("contentImage").src = xi.img;
         document.getElementById("contentImage").visibility = "visible";

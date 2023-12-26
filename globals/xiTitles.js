@@ -1,83 +1,64 @@
 var xiToLocaleToTitle = {
 	"-9": {
-		"en-US": `Eleven`,
-		"zh-TW": `Eleven`
+		"en-US": `Eleven`
 	},
 	"-2": {
 		"en-US": `Turkish March`,
 		"zh-TW": `土耳其進行曲`
 	},
 	"12": {
-		"en-US": `The All-American Hometown Band`,
-		"zh-TW": `The All-American Hometown Band`
+		"en-US": `The All-American Hometown Band`
 	},
 	"30": {
-		"en-US": `私奔到月球`,
-		"zh-TW": `私奔到月球`
+		"en-US": `私奔到月球`
 	},
 	"31": {
-		"en-US": `你被寫在我的歌裡`,
-		"zh-TW": `你被寫在我的歌裡`
+		"en-US": `你被寫在我的歌裡`
 	},
 	"33": {
-		"en-US": `你還不知道？`,
-		"zh-TW": `你還不知道？`
+		"en-US": `你還不知道？`
 	},
 	"34": {
-		"en-US": `怎麼還不愛`,
-		"zh-TW": `怎麼還不愛`
+		"en-US": `怎麼還不愛`
 	},
 	"37": {
-		"en-US": `小酒窩`,
-		"zh-TW": `小酒窩`
+		"en-US": `小酒窩`
 	},
 	"38": {
-		"en-US": `練習愛情`,
-		"zh-TW": `練習愛情`
+		"en-US": `練習愛情`
 	},
 	"39": {
-		"en-US": `有點甜`,
-		"zh-TW": `有點甜`
+		"en-US": `有點甜`
 	},
 	"41": {
-		"en-US": `我會在你身邊`,
-		"zh-TW": `我會在你身邊`
+		"en-US": `我會在你身邊`
 	},
 	"49": {
-		"en-US": `Messed Up`,
-		"zh-TW": `Messed Up`
+		"en-US": `Messed Up`
 	},
 	"50": {
-		"en-US": `致姗姗来迟的你`,
-		"zh-TW": `致姗姗来迟的你`
+		"en-US": `致姗姗来迟的你`
 	},
 	"51": {
-		"en-US": `愛不需要裝乖`,
-		"zh-TW": `愛不需要裝乖`
+		"en-US": `愛不需要裝乖`
 	},
 	"59_1": {
-		"en-US": `愛的主旋律`,
-		"zh-TW": `愛的主旋律`
+		"en-US": `愛的主旋律`
 	},
 	"59_2": {
-		"en-US": `梁山伯與茱麗葉`,
-		"zh-TW": `梁山伯與茱麗葉`
+		"en-US": `梁山伯與茱麗葉`
 	},
 	"62": {
-		"en-US": `黏黏`,
-		"zh-TW": `黏黏`
+		"en-US": `黏黏`
 	},
 	"63": {
-		"en-US": `傻笑`,
-		"zh-TW": `傻笑`
+		"en-US": `傻笑`
 	},
 	"81": {
-		"en-US": `Rewrite the Stars`,
-		"zh-TW": `Rewrite the Stars`
+		"en-US": `Rewrite the Stars`
 	},
 	"83": {
-		"en-US": `I'm Alive`,
-		"zh-TW": `I'm Alive`
+		"en-US": `I'm Alive`
 	},
 	"126": {
 		"en-US": `Happy Birthday!`,
