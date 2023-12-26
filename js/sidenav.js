@@ -30,7 +30,9 @@ function setupSidenav() {
 
 function setScene(xi) {
     var currentXi = document.getElementById("heartText").innerText;
-    document.getElementById(currentXi).style.fontWeight = "normal";
+    if (currentXi != "") {
+        document.getElementById(currentXi).style.fontWeight = "normal";
+    }
 
     document.getElementById("title").innerText = xi.title[window.navigator.language];
     document.getElementById("contentText").innerText = xi.message[window.navigator.language];
