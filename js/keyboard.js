@@ -66,6 +66,7 @@ function setupKeyboardHTML() {
 
 var keysPressed = [];
 var currentMouseDownNoteText;
+var controlOrCommandPressed = false;
 
 function setupEventListeners() {
 	window.addEventListener("mouseup", function() {
@@ -74,12 +75,18 @@ function setupEventListeners() {
 	
 	var keyToNoteText = getKeyToNoteText();
 	window.addEventListener('keydown', function(e) {
-		if (e.key.toUpperCase() in keyToNoteText) {
+		if (e.key.toUpperCase() == "META" || e.key.toUpperCase() == "CONTROL") {
+			controlOrCommandPressed = true;
+		}
+		if (!controlOrCommandPressed && e.key.toUpperCase() in keyToNoteText) {
 			playNote(keyToNoteText[e.key.toUpperCase()])
 		}
 	});
 	window.addEventListener('keyup', function(e) {
-		if (e.key.toUpperCase() in keyToNoteText) {
+		if (e.key.toUpperCase() == "META" || e.key.toUpperCase() == "CONTROL") {
+			controlOrCommandPressed = false;
+		}
+		if (!controlOrCommandPressed && e.key.toUpperCase() in keyToNoteText) {
 			unplayNote(keyToNoteText[e.key.toUpperCase()])
 		}
 	});	
