@@ -10,7 +10,11 @@ var xiToLocaleToMessage = {
 		enough to sing in front of you, I sang this song for you as well. You said you enjoyed my singing of this song in particular, \
 		and much like you do every day of my life, you give me confidence, strength, and comfort in everyday life. You really do "make \
 		me feel like eleven".`,
-		"zh-TW": ``
+		"zh-TW": `我覺得很有趣我們所謂的第一次約會本來不應該是約會。我們兩個都不用問，但是從我們開始相處，我們一直感覺有默契跟緣分，然後我們發出的火花` +
+		`變得夠大所以世界就給我們一個非常完美的約會。那一天讓我很開心很興奮，我跟你在一起感覺很自在，感覺我一直都不想離開你身邊。那一天就感覺世界上只有` +
+		`我們兩個，讓我們有無憂的享受，整個世界在唱浪漫的歌培養我們心中的感情。其中一首歌是IVE的《ELEVEN》，在我們的韓國烤肉餐廳有播，然後` +
+		`我後來覺得有足夠信心可以在你面前唱歌，我就也在你面前唱了這首歌。你說你喜歡我唱這首歌，然後就像你每天對我說，你在我生活裡給我很多信心跟力氣。像` +
+		`《ELEVEN》的歌裡說：「你讓我感覺像十一」。`
 	},
 	"-2": {
 		"en-US": `You really make my life so much better, and ever since I met you, I felt like you radiate a big glow of happiness \
