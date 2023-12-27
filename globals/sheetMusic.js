@@ -870,8 +870,61 @@ function loveDoesntNeedToPretend() {
 			new Chord(["C,1", "C,2"], 1/8),
 			new Chord(["G#,0", "G#,1"], 1/8),
 			new Chord(["F,0", "F,1"], 1/4)
+			/*new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/4),
+			new Chord(["A,0"], 1/8),
+			new Chord(["B,0"], 1/4),
+
+
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["C,1"], 1/4),
+
+
+
+
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/8),
+			new Chord(["B,0"], 1/4),
+			new Chord(["B,0"], 1/4),
+			new Chord(["B,0"], 1/4),
+			new Chord(["B,0"], 1/4),
+			new Chord(["B,0"], 1/8),
+			new Chord(["A,0"], 1/4),
+
+
+
+
+
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["F#,0"], 1/8),
+			new Chord(["G,0"], 1/2),
+
+
+
+			new Chord(["F#,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 1/8),
+			new Chord(["G,0"], 1/4),
+			new Chord(["E,0"], 1/8),
+			new Chord(["E,0"], 1/8),
+			new Chord(["E,0"], 1/8),
+			new Chord(["D,0"], 1/8),
+			new Chord(["D,0"], 1/4)*/
+
 		],
-		76
+		76// * 2
 	)
 }
 
