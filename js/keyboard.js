@@ -96,7 +96,7 @@ function setupEventListeners() {
 	window.addEventListener('resize', adjustContentMaxHeight);
 
 	window.addEventListener("mousedown", function() {
-		closeNav();
+		//closeNav();
 	});
 }
 

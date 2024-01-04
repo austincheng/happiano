@@ -110,7 +110,7 @@ var xiToLocaleToMessage = {
 		"en-US": `I really love how our relationship became so sweet and open with each other, constantly embracing, saying loving words, and sticking to each other like \
 		sweet honey. I keep wanting to tell you how much I love you and how much I appreciate you, and I think we can never say it enough. Even in front of other \
 		people, I'm usually very shy and don't like to show too much about myself, but when I'm with you, the love is so overwhelming that it's hard to resist \
-		our sweetness, and I just feel like I always want to show my sweet love in front of you. Hopefully our friends don't find it too annoying when we "閃瞎", \
+		our sweetness, and I just feel like I always want to show my sweet love in front of you. Hopefully our friends don't find it too annoying when we "放閃", \
 		but it's just so hard to resist getting close to you and becoming sweet with you. We are not just "有點甜", we are definitely "非常甜".`,
 		"zh-TW": ``
 	},
@@ -291,7 +291,7 @@ var xiToLocaleToMessage = {
 		`我一直都不知道你怎麼可能可以又這麼完美，又每天還是變越來越好。
 
 		 你進入我的生活真的讓我很幸福，因為你填補我生活裡的一個大洞。從我們開始認識用簡訊聊天，你一直都很願意陪我然後花很多時間讓我開心。我通常比較內向不太會社交，不太會` +
-		`發簡訊所以也發簡訊比較慢，但是你對我很有耐心，然後慢慢的讓我跟你很自在的相處跟聊天，從簡訊到到語音到電話到視訊到面對面相處。我平常不太喜歡很多社會的相處也不喜歡` +
+		`發簡訊所以也發簡訊比較慢，但是你對我很有耐心，然後慢慢的讓我跟你很自在的相處跟聊天，從簡訊到語音到電話到視訊到面對面相處。我平常不太喜歡很多社會的相處也不喜歡` +
 		`簡訊，因為很多東西我會想太多或者擔心然後讓我緊張，但是跟你在一起我變得完全不一樣。跟你我真的很喜歡用簡訊聊天，然後現在我覺得你是世界上唯一的人我相處的時候可以真的做自己。` +
 		`有時候就感覺你不是一個不同的人，而是我自己以前缺的一部分，所以就很容易做自己因為我不用擔心我平常社交會擔心的。這個也影響我的平常生活，尤其是你在的時候，我變得越來越不害羞` +
 		`因為你永遠支持我也很鼓勵我，所以讓我對自己有多的自信。你永遠對我有信心而且不會覺得我奇怪，就讓我的生活變得比較輕鬆。
@@ -304,10 +304,10 @@ var xiToLocaleToMessage = {
 		 你的個性很外向很活潑就讓大家都很開心讓大家的生活變得更好，你的美麗可愛跟活潑行為讓大家都想靠近你。我自己也覺得很難不看你，我就想一直享受你的美麗跟性格，` +
 		`於是就覺得我是世界上最幸運的人可以欣賞你的存在最多。不管我跟你花多少時間，我覺得永遠不夠然後跟你永遠不會累永遠不會看膩。因為我一直想跟你花更多時間，我記得我以前` +
 		`一直找藉口可以跟你花更多時間，也想找一些比較浪漫的活動可以跟你一起做。不過我後來發現跟你做什麼不重要，只要你在我們的愛情的力量就會想辦法讓我們變很浪漫很甜很親密。` +
-		`跟你在一起我都開始享受很簡單的東西，甚至開始喜歡我以前討厭的事。我真的很開心很幸福有你願意每天陪我花很多時間然後一直忍受我，不管我想做什麼你都願意。我一直想像我們` +
+		`跟你在一起我都開始享受很簡單的東西，甚至開始喜歡我以前討厭的事。我真的很開心很幸福有你願意每天陪我花很多時間然後一直包容我，不管我想做什麼你都願意。我一直想像我們` +
 		`光明的未來，我們可以每天在一起享受生活的每一部分。
 
-		 我們找了很多活動可以一起做然後就做了許多的回憶，我很喜歡回想到我們的生活的故事跟經驗。其中的一個活動是我們的音樂活動，像唱歌跟彈鋼琴，所以為了紀念這些好玩的時候，我低下放了` +
+		 我們找了很多活動可以一起做然後就做了許多的回憶，我很喜歡回想到我們的生活的故事跟經驗。其中的一個活動是我們的音樂活動，像唱歌跟彈鋼琴，所以為了紀念這些好玩的時候，我底下放了` +
 		`一個電子鋼琴所以我們從哪裡都可以彈琴練琴。我們在一起寫最美好的生活故事，所以希望你可以跟我一起享受回憶我們的生活故事，用我們的歌來說我們的故事。我非常期待跟你寫我們的每一夕` +
 		`到我們的生活故事裡直到永恆。
 		 我永遠一直非常非常愛你寶貝 <3

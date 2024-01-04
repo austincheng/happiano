@@ -434,8 +434,27 @@ function niBeiXieZaiWoDeGeLi() {
 			new Chord(["E,1", "E,2"], 1/8),
 			new Chord(["D#,1", "D#,2"], 1/2),
 			new Chord(["D#,1", "C,2", "D#,2"], 1/2),
-			new Chord(["C,1"], 1/16),
-			new Chord(["C#,1"], 1/2)
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32),
+			new Chord(["C,1"], 1/32),
+			new Chord(["C#,1"], 1/32)
+			
 			
 		],
 		92
