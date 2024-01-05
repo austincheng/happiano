@@ -5,6 +5,7 @@ class Xi {
         } else {
             this.xi = xi;
         }
+        this.xiId = xi;
         this.title = xiToLocaleToTitle[xi];
         this.song = song;
         this.img = img;

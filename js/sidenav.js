@@ -14,7 +14,7 @@ function setupSidenav() {
         var a = document.createElement("a");
         a.innerText = xi.xi;
         a.setAttribute("href", "javascript:void(0)");
-        a.setAttribute("id", xi.xi)
+        a.setAttribute("id", xi.xiId)
         a.onclick = function() {
             if (!document.getElementById("keyboard").classList.contains("playing")) {
                 setScene(xi);
@@ -36,10 +36,10 @@ function getOrEnglish(string) {
     return string[language];
 }
 
+var currentXiId;
 function setScene(xi) {
-    var currentXi = document.getElementById("heartText").innerText;
-    if (currentXi != "") {
-        document.getElementById(currentXi).style.fontWeight = "normal";
+    if (currentXiId != undefined) {
+        document.getElementById(currentXiId).style.fontWeight = "normal";
     }
 
     var language = window.navigator.language;
@@ -65,7 +65,9 @@ function setScene(xi) {
         xi.song.play();
     }
 
-    document.getElementById(xi.xi).style.fontWeight = "bold";
+    currentXiId = xi.xiId;
+    document.getElementById(currentXiId).style.fontWeight = "bold";
+    
     closeNav();
 }
 
